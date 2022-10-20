@@ -1,5 +1,5 @@
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #444444;
 }
 
@@ -19,7 +19,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -625,11 +625,7 @@ section {
 # Clients
 --------------------------------------------------------------*/
 .clients {
-  padding: 40px 0;
-}
-
-.clients .swiper {
-  padding: 10px 0;
+  padding-top: 20px;
 }
 
 .clients .swiper-slide img {
@@ -637,6 +633,7 @@ section {
 }
 
 .clients .swiper-slide img:hover {
+  filter: none;
   transform: scale(1.1);
 }
 
@@ -654,7 +651,7 @@ section {
 }
 
 .clients .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: var(--color-primary);
+  background-color: #ffc451;
 }
 
 /*--------------------------------------------------------------
@@ -1491,7 +1488,7 @@ section {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "Raleway", sans-serif;
+  font-family: "Open sans", sans-serif;
   color: #fff;
 }
 
